@@ -11,7 +11,7 @@
   "scripts": {
     "lint": "eslint --fix \"**/*.js\"",
     "start": "firebase serve --only functions",
-    "deploy": "firebase deploy --only functions",
+    "deploy": "firebase deploy --only functions --project washroomfinderactions-ccff9",
     "test": "npm run lint && ava"
   },
   "dependencies": {
